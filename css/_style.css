@@ -37,16 +37,20 @@
     cursor: pointer;
 }
 
-.nav .hamburger {
-    position: relative;
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 40px;
     width: 60px;
     height: 60px;
     background: url('/assets/images/menu.png') no-repeat 30px center;
     cursor: pointer;
+    z-index: 2000;
 }
 
-.nav .hamburger.active {
+.hamburger.active {
     background: url('/assets/images/close.png') no-repeat 25px center;
+    filter: invert(1);
     cursor: pointer;
 }
 
