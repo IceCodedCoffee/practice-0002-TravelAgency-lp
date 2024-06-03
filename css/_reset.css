@@ -17,9 +17,14 @@ body {
     overflow-x: hidden;
 }
 
-a {
+a,
+.hamburger {
     text-decoration: none;
     color: #333;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 ul {
