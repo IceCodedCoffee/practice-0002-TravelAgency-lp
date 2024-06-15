@@ -1,10 +1,9 @@
-const hamburger = document.querySelector('.hamburger');
 const showcase = document.querySelector('.showcase');
+const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 
 hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
     showcase.classList.toggle('active');
+    hamburger.classList.toggle('active');
     mobileMenu.classList.toggle('active');
-
-})
+});

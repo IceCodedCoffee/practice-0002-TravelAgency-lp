@@ -17,8 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-a,
-.hamburger {
+a {
     text-decoration: none;
     color: #333;
     outline: none;
